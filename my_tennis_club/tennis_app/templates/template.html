@@ -10,6 +10,10 @@
 {% endfor %}
 
 <p>In views.py you can see what the fruits variable looks like.</p>
-
+<ul>
+  {% for x in mymembers %}
+  <li>{{x.firstname}}</li>
+  {% endfor %}
+</ul>
 </body>
 </html>
