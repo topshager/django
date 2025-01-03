@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
+  {%  with firstname="nerd" %}
 <h1>Hello {{firstname}}, how are you </h1>
+{% endwith %}
+
 {% for x in fruits %}
   <h1>{{ x }}</h1>
 {% endfor %}
